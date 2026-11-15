@@ -80,7 +80,4 @@ vendor/                          — KaTeX, marked, CodeMirror (CDN-гүй аж�
 
 `judge/shared.js`, `judge/bin/*` — [binji/wasm-clang](https://github.com/binji/wasm-clang) (Apache-2.0, LLVM лиценз: `judge/LICENSE*`).
 `vendor/` — KaTeX (MIT), marked (MIT), CodeMirror 5 (MIT).
-# onlinejudge_2026
-# onlinejudge_2026
-# oj
-# oj
+
