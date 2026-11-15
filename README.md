@@ -2,7 +2,7 @@
 
 Сервергүй, статик сайт. Бодлого, тестүүд нь энгийн файлууд. Оролцогчийн кодыг **хөтөч дотор**
 clang (WebAssembly) хөрвүүлж, тест бүрээр ажиллуулна. Netlify, GitHub Pages эсвэл ямар ч
-статик хостинг дээр байршуулж болно.
+статик host дээр байршуулж болно.
 
 ## Бүтэц
 
@@ -52,7 +52,7 @@ vendor/                          — KaTeX, marked, CodeMirror (CDN-гүй аж�
    CMS-ийн `input/input0.txt`/`output/output0.txt`, Polygon-ийн `01`/`01.a`.
 5. `python3 tools/build_index.py` ажиллуулна (Netlify дээр deploy хийх бүрт автоматаар ажиллана).
 
-## Байршуулах (Netlify)
+## Байршуулах (Netlify, Github)
 
 1. Энэ хавтсыг GitHub repo болгож push хийнэ (`clang.wasm` 31MB, GitHub-ийн 100MB хязгаараас бага).
 2. Netlify → *Add new site → Import from Git* → repo-г сонгоно. Тохиргоо `netlify.toml` дотор байгаа.
